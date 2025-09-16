@@ -1,0 +1,36 @@
+{
+  "perfil": "trabalho",
+
+  "apps": {
+    "visual-studio-code": true,
+    "intellij-idea": true,
+    "mongodb-compass": true,
+    "dbeaver-community": true,
+    "cursor": false,
+    "google-chrome": true,
+    "postman": true
+  },
+
+  "install_node": true,
+  "install_docker": true,
+  "configure_zsh": true,
+
+  "ssh_keys": [
+    {
+      "name": "github-coru",
+      "email": "{email}",
+      "keyname": "gitHub-coru"
+    },
+    {
+      "name": "bitbucket-coru",
+      "email": "{email}",
+      "keyname": "bitbucket-coru"
+    }
+  ],
+
+  "configure_git": {
+    "enabled": false,
+    "name": "{name}",
+    "email": "{email}"
+  }
+}
